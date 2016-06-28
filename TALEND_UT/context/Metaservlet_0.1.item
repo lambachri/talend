@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="metaServlet_password" prompt="metaServlet_password?" promptNeeded="false" type="id_Password" value="s9afH0ZmjGX3VK6hghwWwA=="/>
+  <contextParameter comment="" name="metaServlet_tacUrl" prompt="metaServlet_tacUrl?" promptNeeded="false" type="id_String" value="http://localhost:8080/org.talend.administrator"/>
+  <contextParameter comment="" name="metaServlet_user" prompt="metaServlet_user?" promptNeeded="false" type="id_String" value="lambachritariq@gmail.com"/>
+  <contextParameter comment="" name="metaServlet_mode" prompt="metaServlet_mode?" promptNeeded="false" type="id_String" value="asynchronous"/>
+  <contextParameter comment="" name="branch" prompt="branch?" promptNeeded="false" type="id_String" value="master"/>
+  <contextParameter comment="" name="contextName" prompt="contextName?" promptNeeded="false" type="id_String" value="Default"/>
+  <contextParameter comment="" name="description" prompt="description?" promptNeeded="false" type="id_String" value="Task for runing Unit Test "/>
+  <contextParameter comment="" name="exec_server" prompt="exec_server?" promptNeeded="false" type="id_String" value="jobserver"/>
+  <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" type="id_String" value="Exe_unit_test_00"/>
+  <contextParameter comment="" name="jobVersion" prompt="jobVersion?" promptNeeded="false" type="id_String" value="latest"/>
+  <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="taskName" prompt="taskName?" promptNeeded="false" type="id_String" value="Unit_Test"/>
+  <contextParameter comment="" name="pushed_branch" prompt="pushed_branch?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="previous_value" prompt="previous_value?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

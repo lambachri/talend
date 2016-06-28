@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_V6IuIDh-Eea4Tf-HvOmN1g" name="test" dataPackage="_V6IuJTh-Eea4Tf-HvOmN1g" JSONFilePath="/Users/tariqlambachri/Desktop/test.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_V6IuITh-Eea4Tf-HvOmN1g" LimitBoucle="1000" AbsoluteXPathQuery="$">
+      <schemaTargets xmi:id="_V6IuIjh-Eea4Tf-HvOmN1g" RelativeXPathQuery="push.changes[*].commits[*].author.raw" TagName="user"/>
+      <schemaTargets xmi:id="_V6IuIzh-Eea4Tf-HvOmN1g" RelativeXPathQuery="push.changes[*].new.links.html.href" TagName="branch"/>
+      <schemaTargets xmi:id="_V6IuJDh-Eea4Tf-HvOmN1g" RelativeXPathQuery="push.changes[*].commits[*].message" TagName="Project_Info"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_V6IuJTh-Eea4Tf-HvOmN1g" name="default" dataManager="_V6IuIDh-Eea4Tf-HvOmN1g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_V6IuJjh-Eea4Tf-HvOmN1g" id="_9_5YADh8Eea4Tf-HvOmN1g" label="extract_param">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V6IuJzh-Eea4Tf-HvOmN1g" label="user" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V6IuKDh-Eea4Tf-HvOmN1g" label="branch" length="68" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V6IuKTh-Eea4Tf-HvOmN1g" label="Project_Info" length="152" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
